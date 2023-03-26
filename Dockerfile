@@ -2,7 +2,7 @@ FROM python:3.7-alpine
 
 WORKDIR /api
 # Install dependencies.
-ADD requirements.txt /requirements.txt
+ADD requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 
 # Copy code.
